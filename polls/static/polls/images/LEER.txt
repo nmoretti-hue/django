@@ -1,0 +1,2 @@
+Aca va la imagen background.png que se usa como fondo en style.css
+(Parte 6 del tutorial). Puede ser cualquier imagen.

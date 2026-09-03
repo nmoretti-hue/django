@@ -1,0 +1,25 @@
+Proyecto del tutorial oficial de Django (partes 1 a 8)
+Trabajo practico - Nicolas Moretti
+
+Como levantarlo:
+
+  1. python -m venv venv
+  2. source venv/bin/activate      (en Windows: venv\Scripts\activate)
+  3. pip install -r requirements.txt
+  4. python manage.py migrate
+  5. python manage.py createsuperuser
+  6. python manage.py runserver
+
+Despues abrir en el navegador:
+
+  http://127.0.0.1:8000/polls/     la encuesta publica
+  http://127.0.0.1:8000/admin/     el panel de administracion
+
+Para correr las pruebas de la parte 5:
+
+  python manage.py test polls
+
+Nota: la carpeta polls/migrations queda vacia a proposito. La migracion
+inicial se genera con:
+
+  python manage.py makemigrations polls
